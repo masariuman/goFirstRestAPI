@@ -48,7 +48,12 @@ func Store(c *gin.Context) {
 }
 
 func Update(c *gin.Context) {
-
+	var product models.Product
+	//id := c.Param("id")
+	if err := c.ShouldBindJSON(&product); err != nil {
+		c.AbortWithStatusJSON(http.StatusBadRequest, gin.H{"message": err.Error()})
+		return
+	}
 }
 
 func Delete(c *gin.Context) {
