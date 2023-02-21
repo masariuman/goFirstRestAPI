@@ -1,6 +1,5 @@
-<img src="https://raw.githubusercontent.com/gin-gonic/logo/master/color.png">
-![Gopher image](https://golang.org/doc/gopher/fiveyears.jpg)
-*Gopher image by [Renee French][rf], licensed under [Creative Commons 4.0 Attributions license][cc4-by].*
+<img width="400" src="https://raw.githubusercontent.com/gin-gonic/logo/master/color.png">
+<img src="https://golang.org/doc/gopher/fiveyears.jpg">
 [![Build Status](https://github.com/gin-gonic/gin/workflows/Run%20Tests/badge.svg?branch=master)](https://github.com/gin-gonic/gin/actions?query=branch%3Amaster)
 [![codecov](https://codecov.io/gh/gin-gonic/gin/branch/master/graph/badge.svg)](https://codecov.io/gh/gin-gonic/gin)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gin-gonic/gin)](https://goreportcard.com/report/github.com/gin-gonic/gin)
